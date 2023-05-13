@@ -1,5 +1,6 @@
 import { useEffect, useState } from 'react';
 import Navigation from './components/Navigation';
+import Home from './pages/Home';
 
 function App() {
   const [theme, setTheme] = useState<string | null>('');
@@ -38,6 +39,7 @@ function App() {
   return (
     <div className="App">
       <Navigation />
+      <Home />
     </div>
   );
 }
