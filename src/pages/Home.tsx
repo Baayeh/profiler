@@ -1,5 +1,6 @@
 import Sidebar from '../components/Sidebar';
 import Services from '../components/services/Services';
+import { Projects, Services, Sidebar } from '../components';
 
 const Home = () => {
   return (
@@ -9,6 +10,7 @@ const Home = () => {
       </div>
       <div className="col-lg-8 col-md-7 col-sm-12 col-12">
         <Services />
+        <Projects />
       </div>
     </div>
   );

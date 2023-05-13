@@ -1,5 +1,5 @@
 import { useEffect, useState } from 'react';
-import Navigation from './components/Navigation';
+import { Navigation } from './components';
 import Home from './pages/Home';
 
 function App() {
