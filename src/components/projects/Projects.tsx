@@ -1,5 +1,6 @@
 import { Divider } from 'primereact/divider';
 import { BsFolder2Open } from 'react-icons/bs';
+import projects from './ProjectArray';
 import ProjectCard from './ProjectCard';
 
 const Project = () => {
@@ -13,12 +14,20 @@ const Project = () => {
       </Divider>
 
       <div className="row">
-        <div className="col-12">
-          <ProjectCard />
-        </div>
-        <div className="col-12">
-          <ProjectCard />
-        </div>
+        {projects &&
+          projects.map((project) => {
+            return (
+              <div className="col-12">
+                <ProjectCard
+                  image={project.image}
+                  description={project.description}
+                  title={project.title}
+                  source={project.source}
+                  date={project.date}
+                />
+              </div>
+            );
+          })}
       </div>
     </div>
   );
