@@ -1,4 +1,5 @@
 import { useEffect, useState } from 'react';
+import Navigation from './components/Navigation';
 
 function App() {
   const [theme, setTheme] = useState<string | null>('');
@@ -34,7 +35,11 @@ function App() {
     }
   }, [theme]);
 
-  return <div className="App"></div>;
+  return (
+    <div className="App">
+      <Navigation />
+    </div>
+  );
 }
 
 export default App;
