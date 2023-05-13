@@ -1,4 +1,5 @@
 import Sidebar from '../components/Sidebar';
+import Services from '../components/services/Services';
 
 const Home = () => {
   return (
@@ -7,6 +8,7 @@ const Home = () => {
         <Sidebar />
       </div>
       <div className="col-lg-8 col-md-7 col-sm-12 col-12">
+        <Services />
       </div>
     </div>
   );
