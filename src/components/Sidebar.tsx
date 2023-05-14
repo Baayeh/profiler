@@ -1,4 +1,5 @@
 import { Divider } from 'primereact/divider';
+import { BiMailSend } from 'react-icons/bi';
 import { BsGithub, BsTwitter } from 'react-icons/bs';
 import { FaLinkedinIn } from 'react-icons/fa';
 import { RiUserFollowLine } from 'react-icons/ri';
@@ -67,6 +68,20 @@ const Sidebar = () => {
           <div className="card contact-box">
             <div className="card-body text-center">
               <BsTwitter className="fs-5" />
+            </div>
+          </div>
+        </a>
+
+        <a
+          href="mailto:kabaayeh@gmail.com"
+          rel="noopener"
+          title="Mail"
+          target="_blank"
+          style={{ color: 'black' }}
+        >
+          <div className="card contact-box">
+            <div className="card-body text-center">
+              <BiMailSend className="fs-5" />
             </div>
           </div>
         </a>

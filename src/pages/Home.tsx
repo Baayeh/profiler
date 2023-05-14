@@ -3,7 +3,6 @@ import {
   TabPanelHeaderTemplateOptions,
   TabView,
 } from 'primereact/tabview';
-import { FaUserAstronaut } from 'react-icons/fa';
 import { GrOverview } from 'react-icons/gr';
 import { Projects, Sidebar } from '../components';
 import Overview from '../components/Overview';
