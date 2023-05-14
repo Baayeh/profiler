@@ -89,49 +89,56 @@ const Overview = () => {
 
         <div className="d-flex justify-content-around flex-wrap gap-3">
           <a
-            href=""
+            href="https://www.javascript.com/"
+            target="_blank"
             className="d-flex flex-column justify-content-center align-items-center text-decoration-none"
           >
             <TbBrandJavascript style={{ fontSize: '2.5rem' }} />
             <span style={{ fontSize: '1rem' }}>JavaScript</span>
           </a>
           <a
-            href=""
+            href="https://www.w3.org/Style/CSS/Overview.en.html"
+            target="_blank"
             className="d-flex flex-column justify-content-center align-items-center text-decoration-none"
           >
             <TbBrandCss3 style={{ fontSize: '2.5rem' }} />
             <span style={{ fontSize: '1rem' }}>CSS</span>
           </a>
           <a
-            href=""
+            href="https://www.typescriptlang.org/"
+            target="_blank"
             className="d-flex flex-column justify-content-center align-items-center text-decoration-none"
           >
             <TbBrandTypescript style={{ fontSize: '2.5rem' }} />
             <span style={{ fontSize: '1rem' }}>TypeScript</span>
           </a>
           <a
-            href=""
+            href="https://react.dev/"
+            target="_blank"
             className="d-flex flex-column justify-content-center align-items-center text-decoration-none"
           >
             <SiReact style={{ fontSize: '2.5rem' }} />
             <span style={{ fontSize: '1rem' }}>ReactJs</span>
           </a>
           <a
-            href=""
+            href="https://redux.js.org/"
+            target="_blank"
             className="d-flex flex-column justify-content-center align-items-center text-decoration-none"
           >
             <SiRedux style={{ fontSize: '2.5rem' }} />
             <span style={{ fontSize: '1rem' }}>Redux</span>
           </a>
           <a
-            href=""
+            href="https://getbootstrap.com/"
+            target="_blank"
             className="d-flex flex-column justify-content-center align-items-center text-decoration-none"
           >
             <TbBrandBootstrap style={{ fontSize: '2.5rem' }} />
             <span style={{ fontSize: '1rem' }}>Bootstrap</span>
           </a>
           <a
-            href=""
+            href="https://tailwindcss.com/"
+            target="_blank"
             className="d-flex flex-column justify-content-center align-items-center text-decoration-none"
           >
             <SiTailwindcss style={{ fontSize: '2.5rem' }} />
@@ -139,7 +146,8 @@ const Overview = () => {
           </a>
 
           <a
-            href=""
+            href="https://git-scm.com/"
+            target="_blank"
             className="d-flex flex-column justify-content-center align-items-center text-decoration-none"
           >
             <BsGit style={{ fontSize: '2.5rem' }} />
